@@ -2,7 +2,9 @@
 #include <string>
 #include "CarType.h"
 #include "CarStatus.h"
-class Car
+#include "ICarRentalProduct.h"
+
+class Car: public ICarRentalProduct
 {
 private:
 	std::string id;

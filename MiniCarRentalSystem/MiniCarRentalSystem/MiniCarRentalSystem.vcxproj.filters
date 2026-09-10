@@ -16,24 +16,36 @@
     <Filter Include="Header Files\Enums">
       <UniqueIdentifier>{18844dff-4e6b-44e1-9ac8-a680f640ca72}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CarRentalFactories">
+      <UniqueIdentifier>{84cf4925-ffb7-4fb9-9e4a-03a4a2cfb833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CarRentalFactories">
+      <UniqueIdentifier>{d1097110-9b8b-4e7a-8064-a1cd51d21831}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiniCarRentalSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Car.cpp">
+    <ClCompile Include="ICarRentalProduct.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\CarRentalFactories</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CarType.h">
       <Filter>Header Files\Enums</Filter>
     </ClInclude>
     <ClInclude Include="CarStatus.h">
       <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="ICarRentalProduct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\CarRentalFactories</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
