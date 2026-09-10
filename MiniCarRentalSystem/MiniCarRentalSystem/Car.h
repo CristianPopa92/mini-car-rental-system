@@ -26,7 +26,7 @@ public:
 
 	Car& operator=(const Car& other);
 
-	~Car();
+	virtual ~Car();
 	
 	const std::string getId() const;
 	void setId(const std::string& newId);
