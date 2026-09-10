@@ -5,5 +5,5 @@ enum class RentalStatus
 	ACTIVE,
 	COMPLETED,
 	CANCELLED,
-	UNKOWN
+	UNKNOWN
 };
