@@ -18,6 +18,6 @@ public:
 		CarStatus& statusParam
 	);
 
-	virtual ICarRentalProduct* createCarRentalProduct(const ICarRentalProduct& product);
+	virtual ICarRentalProduct* createCarRentalProduct();
 };
 

@@ -18,7 +18,7 @@ CarCreator::CarCreator(
 }
 
 
-ICarRentalProduct* CarCreator::createCarRentalProduct(const ICarRentalProduct& product)
+ICarRentalProduct* CarCreator::createCarRentalProduct()
 {
     return new Car(id, model, type, pricePerDay, status);
 }
