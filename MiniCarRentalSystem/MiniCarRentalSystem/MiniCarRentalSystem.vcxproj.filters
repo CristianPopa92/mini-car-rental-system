@@ -36,6 +36,12 @@
     <ClCompile Include="Rental.cpp">
       <Filter>Source Files\CarRentalFactories</Filter>
     </ClCompile>
+    <ClCompile Include="CarCreator.cpp">
+      <Filter>Source Files\CarRentalFactories</Filter>
+    </ClCompile>
+    <ClCompile Include="CarRentalProductCreator.cpp">
+      <Filter>Source Files\CarRentalFactories</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CarType.h">
@@ -54,6 +60,12 @@
       <Filter>Header Files\CarRentalFactories</Filter>
     </ClInclude>
     <ClInclude Include="Rental.h">
+      <Filter>Header Files\CarRentalFactories</Filter>
+    </ClInclude>
+    <ClInclude Include="CarCreator.h">
+      <Filter>Header Files\CarRentalFactories</Filter>
+    </ClInclude>
+    <ClInclude Include="CarRentalProductCreator.h">
       <Filter>Header Files\CarRentalFactories</Filter>
     </ClInclude>
   </ItemGroup>
