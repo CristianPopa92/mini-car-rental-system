@@ -1,5 +1,8 @@
 #pragma once
 #include "CarRentalProductCreator.h"
+#include <string>
+#include "CarType.h"
+#include "CarStatus.h"
 
 class CarCreator: public CarRentalProductCreator
 {
