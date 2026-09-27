@@ -42,6 +42,9 @@
     <ClCompile Include="CarRentalProductCreator.cpp">
       <Filter>Source Files\CarRentalFactories</Filter>
     </ClCompile>
+    <ClCompile Include="RentalCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CarType.h">
@@ -67,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="CarRentalProductCreator.h">
       <Filter>Header Files\CarRentalFactories</Filter>
+    </ClInclude>
+    <ClInclude Include="RentalCreator.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
