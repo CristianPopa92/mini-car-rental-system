@@ -48,14 +48,14 @@
     <ClCompile Include="CarRentalProductCreator.cpp">
       <Filter>Source Files\CarRentalFactories</Filter>
     </ClCompile>
-    <ClCompile Include="RentalCreator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="CarValidator.cpp">
       <Filter>Source Files\Validators</Filter>
     </ClCompile>
     <ClCompile Include="RentalValidator.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Validators</Filter>
+    </ClCompile>
+    <ClCompile Include="RentalCreator.cpp">
+      <Filter>Source Files\CarRentalFactories</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,14 +83,14 @@
     <ClInclude Include="CarRentalProductCreator.h">
       <Filter>Header Files\CarRentalFactories</Filter>
     </ClInclude>
-    <ClInclude Include="RentalCreator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CarValidator.h">
       <Filter>Header Files\Validators</Filter>
     </ClInclude>
     <ClInclude Include="RentalValidator.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Validators</Filter>
+    </ClInclude>
+    <ClInclude Include="RentalCreator.h">
+      <Filter>Header Files\CarRentalFactories</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
