@@ -147,6 +147,7 @@
     <ClCompile Include="MiniCarRentalSystem.cpp" />
     <ClCompile Include="Rental.cpp" />
     <ClCompile Include="RentalCreator.cpp" />
+    <ClCompile Include="RentalValidator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
@@ -159,6 +160,7 @@
     <ClInclude Include="Rental.h" />
     <ClInclude Include="RentalCreator.h" />
     <ClInclude Include="RentalStatus.h" />
+    <ClInclude Include="RentalValidator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
