@@ -142,6 +142,7 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="CarCreator.cpp" />
     <ClCompile Include="CarRentalProductCreator.cpp" />
+    <ClCompile Include="CarValidator.cpp" />
     <ClCompile Include="ICarRentalProduct.cpp" />
     <ClCompile Include="MiniCarRentalSystem.cpp" />
     <ClCompile Include="Rental.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="CarRentalProductCreator.h" />
     <ClInclude Include="CarStatus.h" />
     <ClInclude Include="CarType.h" />
+    <ClInclude Include="CarValidator.h" />
     <ClInclude Include="ICarRentalProduct.h" />
     <ClInclude Include="Rental.h" />
     <ClInclude Include="RentalCreator.h" />

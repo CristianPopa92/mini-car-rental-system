@@ -22,6 +22,12 @@
     <Filter Include="Source Files\CarRentalFactories">
       <UniqueIdentifier>{d1097110-9b8b-4e7a-8064-a1cd51d21831}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Validators">
+      <UniqueIdentifier>{4bc086b5-be24-42ef-a113-cc05068334d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Validators">
+      <UniqueIdentifier>{415e0ffb-b3ee-464c-8d81-0b01c63d9946}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiniCarRentalSystem.cpp">
@@ -43,6 +49,9 @@
       <Filter>Source Files\CarRentalFactories</Filter>
     </ClCompile>
     <ClCompile Include="RentalCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CarValidator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,6 +81,9 @@
       <Filter>Header Files\CarRentalFactories</Filter>
     </ClInclude>
     <ClInclude Include="RentalCreator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarValidator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
